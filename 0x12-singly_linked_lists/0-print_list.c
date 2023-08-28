@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
-* print_ of a list_t list
-* @h: data typ
-* Returi
+* print_list - Print all the elements of a list_t list
+* @h: data type pointer of struct
+* Return: elements of the str i
 */
 size_t print_list(const list_t *h)
 {
