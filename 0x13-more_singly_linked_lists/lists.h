@@ -1,17 +1,17 @@
-#define LISTS_H
 #ifndef LISTS_H
+#define LISTS_H
 
-#include <stdlib.h>
-#include <strings.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 
 /**
-* struct ld list
-* @n: integer
-* @next: pode
-* Description: s structure
-*/
+ * str_s - singly linked list
+ * @n:ger
+ * @neo the next node
+ *
+ * Desd list node structure
+ * foroject
+ */
 typedef struct listint_s
 {
 	int n;
