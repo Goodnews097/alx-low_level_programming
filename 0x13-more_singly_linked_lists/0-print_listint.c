@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * prin the elements of a linked list
- * @h: ype listint_t to print
+ * prin the elejsdjdsdsdhhdsments of a linked list
+ * @h: ype listint_t to prindsdsdsdt
  *
- * Retuber of nodes
+ * Retddjjsdhrbber of nodes
  */
 size_t print_listint(const listint_t *h)
 {
@@ -19,4 +19,3 @@ size_t print_listint(const listint_t *h)
 
 	return (num);
 }
-
