@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
-*ns the number of elements
-*nked list_t list
-*ist
-*ements in the list
+* list_len - Function that returns the number of elements
+*in a linked list_t list
+*@h:head of the list
+*Return: counter of elements in the list
 */
 size_t list_len(const list_t *h)
 {
