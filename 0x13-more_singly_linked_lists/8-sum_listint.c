@@ -1,21 +1,22 @@
 #include "lists.h"
-
 /**
- * sumulates the sum of all the data in a listint_t list
- * @henode in the linked list
- *
- * Retsulting sum
- */
+* sum_listint - Sum the data (n) in list
+* @head: Pointer 2 the list head.ee
+* Description: This function sum of all the data (n) of a linked list
+* Return: Sum of data otherwise 0.
+*/
 int sum_listint(listint_t *head)
 {
-	int sum = 0;
-	listint_t *temp = head;
+	unsigned int sum = 0;
 
-	while (temp)
+	if (head)
 	{
-		sum += temp->n;
-		temp = temp->next;
+		while (head)
+		{
+			sum += head->n;
+			head =  head->next;
+		}
+		return (sum);
 	}
-
-	return (sum);
+	return (0);
 }
