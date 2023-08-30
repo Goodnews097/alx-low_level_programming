@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
-* add_node - Adds a new node at the beginning of a linked list add_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of a
-* @head: The pointer address to header node. add_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of a
-* @str: Pointer to the string of the node.add_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of a
-* Description: This function adds a new node at the beginningadd_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of a
-* of a list_t list. add_node - Adds a new node at the beginning of aadd_node - Adds a new node at the beginning of a
+* add_node - Adds a new node at the beginning of a linked list
+* @head: The pointer address to header node.
+* @str: Pointer to the string of the node.
+* Description: This function adds a new node at the beginning
+* of a list_t list.
 * Return: The address of the new element, or NULL if it failed.
 */
 list_t *add_node(list_t **head, const char *str)
