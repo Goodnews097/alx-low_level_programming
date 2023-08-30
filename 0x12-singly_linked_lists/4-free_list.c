@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
-* free_list - main functionfree_list - main functionfree_list - main function
-* @head: The pointer address to header node.free_list - main functionfree_list - main functionfree_list - main function
-* Description: This function frees a list_t list.free_list - main functionfree_list - main functionfree_list - main function
+* free_list - main function
+* @head: The pointer address to header node.
+* Description: This function frees a list_t list.
 * Return: Nothing.
 */
 void free_list(list_t *head)

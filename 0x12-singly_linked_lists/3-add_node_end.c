@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
-* add_node_end -  Adds a new node at the end of a list_t list.dd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a l
-* @head: The pointer address to header node.dd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a l
-* @str: Pointer to the string of the node.dd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a l
-* Description: This function adds a new node at the end of a list_t list.dd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a l
-* Return: The address of the new element, or NULL if it failed.dd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a ldd_node_end -  Adds a new node at the end of a l
+* add_node_end -  Adds a new node at the end of a list_t list.
+* @head: The pointer address to header node.
+* @str: Pointer to the string of the node.
+* Description: This function adds a new node at the end of a list_t list.
+* Return: The address of the new element, or NULL if it failed.
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
